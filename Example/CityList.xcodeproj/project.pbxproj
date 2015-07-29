@@ -16,6 +16,7 @@
 		E582080B1B6864A500C9C44D /* CityListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E582080A1B6864A500C9C44D /* CityListTests.m */; };
 		E58208171B6864FE00C9C44D /* CityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58208161B6864FE00C9C44D /* CityListViewController.m */; };
 		E582081A1B68650800C9C44D /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = E58208191B68650800C9C44D /* City.m */; };
+		E582081C1B6869EE00C9C44D /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = E582081B1B6869EE00C9C44D /* citydict.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E58208161B6864FE00C9C44D /* CityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListViewController.m; sourceTree = "<group>"; };
 		E58208181B68650800C9C44D /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
 		E58208191B68650800C9C44D /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		E582081B1B6869EE00C9C44D /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				E58208161B6864FE00C9C44D /* CityListViewController.m */,
 				E58208181B68650800C9C44D /* City.h */,
 				E58208191B68650800C9C44D /* City.m */,
+				E582081B1B6869EE00C9C44D /* citydict.plist */,
 			);
 			path = City;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58207FA1B6864A500C9C44D /* Main.storyboard in Resources */,
+				E582081C1B6869EE00C9C44D /* citydict.plist in Resources */,
 				E58207FF1B6864A500C9C44D /* LaunchScreen.xib in Resources */,
 				E58207FC1B6864A500C9C44D /* Images.xcassets in Resources */,
 			);
@@ -436,6 +440,7 @@
 				E58208101B6864A500C9C44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E58208111B6864A500C9C44D /* Build configuration list for PBXNativeTarget "CityListTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +449,7 @@
 				E58208131B6864A500C9C44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
