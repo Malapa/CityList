@@ -14,6 +14,8 @@
 		E58207FC1B6864A500C9C44D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58207FB1B6864A500C9C44D /* Images.xcassets */; };
 		E58207FF1B6864A500C9C44D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58207FD1B6864A500C9C44D /* LaunchScreen.xib */; };
 		E582080B1B6864A500C9C44D /* CityListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E582080A1B6864A500C9C44D /* CityListTests.m */; };
+		E58208171B6864FE00C9C44D /* CityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58208161B6864FE00C9C44D /* CityListViewController.m */; };
+		E582081A1B68650800C9C44D /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = E58208191B68650800C9C44D /* City.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E58208041B6864A500C9C44D /* CityListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58208091B6864A500C9C44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E582080A1B6864A500C9C44D /* CityListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityListTests.m; sourceTree = "<group>"; };
+		E58208151B6864FE00C9C44D /* CityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListViewController.h; sourceTree = "<group>"; };
+		E58208161B6864FE00C9C44D /* CityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListViewController.m; sourceTree = "<group>"; };
+		E58208181B68650800C9C44D /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		E58208191B68650800C9C44D /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		E58207ED1B6864A500C9C44D /* CityList */ = {
 			isa = PBXGroup;
 			children = (
+				E58208141B6864BD00C9C44D /* City */,
 				E58207F21B6864A500C9C44D /* AppDelegate.h */,
 				E58207F31B6864A500C9C44D /* AppDelegate.m */,
 				E58207F51B6864A500C9C44D /* ViewController.h */,
@@ -117,6 +124,17 @@
 				E58208091B6864A500C9C44D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E58208141B6864BD00C9C44D /* City */ = {
+			isa = PBXGroup;
+			children = (
+				E58208151B6864FE00C9C44D /* CityListViewController.h */,
+				E58208161B6864FE00C9C44D /* CityListViewController.m */,
+				E58208181B68650800C9C44D /* City.h */,
+				E58208191B68650800C9C44D /* City.m */,
+			);
+			path = City;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E582081A1B68650800C9C44D /* City.m in Sources */,
 				E58207F71B6864A500C9C44D /* ViewController.m in Sources */,
 				E58207F41B6864A500C9C44D /* AppDelegate.m in Sources */,
 				E58207F11B6864A500C9C44D /* main.m in Sources */,
+				E58208171B6864FE00C9C44D /* CityListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
